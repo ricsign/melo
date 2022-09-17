@@ -10,7 +10,7 @@ function Home() {
       {!searchedSongs.length ? (
         <div>
 
-          <h1 className="mt-title">Melo</h1>
+          <h1 className="mt-title"> Melo </h1>
 
           <Searchbar setSearchedSongs={setSearchedSongs} />
           <br/>

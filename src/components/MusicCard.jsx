@@ -4,11 +4,13 @@ function MusicCard({ song }) {
   const [ isNotesShowing, setIsNotesShowing ] = useState(false);
   return (
     <div className="card h-100">
+      <div className="ratio ratio-1x1">
       <img
         src={song.photo}
-        className="card-img-top"
+        className="card-img"
         alt={song.name}
       />
+      </div>
       <div className="card-body">
         <h5 className="card-title">{song.name}</h5>
         <h6> {song.composer} </h6>
