@@ -2,28 +2,17 @@ import React from 'react'
 
 import MusicCard from './MusicCard'
 
-function MusicCards() {
+function MusicCards({ searchedSongs }) {
   return (
     <div className="App">
         <div className="row row-cols-1 row-cols-md-3 g-5">
-            <div className="col">
-                <MusicCard />
-            </div>
-            <div className="col">
-                <MusicCard />
-            </div>
-            <div className="col">
-                <MusicCard />
-            </div>
-            <div className="col">
-                <MusicCard />
-            </div>
-            <div className="col">
-                <MusicCard />
-            </div>
-            <div className="col">
-                <MusicCard />
-            </div>
+            {
+                searchedSongs.map((song, i) => (
+                    <div key={i} className="col">
+                        <MusicCard song={song} />
+                    </div>
+                ))
+            }
         </div>
     </div>
   )

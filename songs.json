@@ -1,0 +1,43 @@
+{
+    "songs": [{
+            "name": "River Flows In You",
+            "photo": "https://d3tvwjfge35btc.cloudfront.net/Assets/63/825/L_p0057882563.jpg",
+            "description": "The sky is clear; the stars are twinkling.",
+            "category": "Pop, Classical",
+            "letternotes": "abcaefefc",
+            "numbernotes": "1717151413171715143453217151233454321217115112171151121712345321752",
+            "composer": "Yiruma",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Xue Shen",
+            "photo": "https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/95/449/L_g0150744995.jpg",
+            "description": "The external scars tell only part of the story.",
+            "category": "Rock",
+            "letternotes": "abcaggbc",
+            "numbernotes": "514131717151434532143213247151233454321217115112171",
+            "composer": "Richard",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "University of Waterloo is way better than University of Toronto",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/800px-University_of_Waterloo_seal.svg.png",
+            "description": "I hear that Nancy is very pretty. In that instant, everything changed.", 
+            "category": "Pop",
+            "letternotes": "abcaggbcadeeeffe",
+            "numbernotes": "514131717151434563247151233454321217115112171",
+            "composer": "Un",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Linda don't touch the code",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ProhibitionSign2.svg/1200px-ProhibitionSign2.svg.png",
+            "description": "something something something something something",
+            "category": "Coding",
+            "letternotes": "aaddgecdbe",
+            "numbernotes": "221466931038477103",
+            "composer": "Richard",
+            "link": "https://youtube.com"
+        }
+    ]
+}

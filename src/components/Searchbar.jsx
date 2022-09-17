@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 
-function Searchbar() {
-  let submitSearch = (e) => {
+function Searchbar({setSearchedSongs}) {
+  let submitSearch = async (e) => {
     if (e.key !== "Enter") return;
 
-    console.log(e);
-
     // api calls to fetch data from user input
+    const songs = await fetch("http://localhost:8000/songs").then((response) => response.json())
+    const userInput = e.target.value.toLowerCase()
+
+    setSearchedSongs([])
+    for(let song of songs){
+        if(song.letternotes.includes(userInput) || song.numbernotes.includes(userInput) || song.name.toLowerCase().includes(userInput)){
+            setSearchedSongs((songs) => {return [...songs, song]})
+        }
+    }
   };
 
   return (
@@ -20,10 +27,17 @@ function Searchbar() {
             placeholder="Type some notes, search for the music piece."
           />
           
-        </div>
+          </div>
+          
+
+  
+        
       </div>
+     
+
+      
     </>
   );
 }
 
-export default Searchbar;
+export default Searchbar; 
