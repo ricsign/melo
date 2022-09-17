@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function MusicCard({ song }) {
+  const [ isNotesShowing, setIsNotesShowing ] = useState(false);
   return (
     <div className="card h-100">
       <img
@@ -12,8 +13,12 @@ function MusicCard({ song }) {
         <h5 className="card-title">{song.name}</h5>
         <h6> {song.composer} </h6>
         <p className="card-text">{song.description}</p>
-        <a href={song.link} className="btn btn-primary">Learn More</a>
 
+        {isNotesShowing && <p className="notes">{song.letternotes.toUpperCase()}</p>}
+        <a href={song.link} className="btn btn-primary">Learn More</a><br />
+        <button className="btn btn-outline-primary mt-3" onClick={() => {setIsNotesShowing(val => !val)}}>
+          {isNotesShowing ? "Hide Notes" : "Show Notes"}
+        </button>
       </div>
     </div>
   );

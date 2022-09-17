@@ -27,7 +27,7 @@ function Home() {
           <br/>
           <Searchbar setSearchedSongs={setSearchedSongs} />
         </div>
-        
+       
 
       ) : (
         <div>

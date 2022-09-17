@@ -39,6 +39,16 @@
 
 
 /* Card */
+.cards {
+  margin-top: 5px;
+}
+
 .card {
-  border-radius: 40px;
+  border-radius: 100px;
+  padding: 30px 30px 20px 30px;
+}
+
+.notes {
+  font-size: 14px;
+  color: grey;
 }
