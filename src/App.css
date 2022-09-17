@@ -1,38 +1,40 @@
+/* Global */
 .App {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1% 3%;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home section */
+.title {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mt-title {
+  margin: 20% 0 2% 0;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Search bar styling */
+.search-bar {
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Doc formatting */
+.doc {
+  text-align: left;
+  font-family: Tohoma, sans-serif;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Card */
+.card {
+  border-radius: 40px;
 }

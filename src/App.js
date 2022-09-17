@@ -1,10 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home'
+import Docs from './components/Docs'
+//import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      123
+      <BrowserRouter>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="docs" element={<Docs />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
