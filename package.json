@@ -1,7 +1,7 @@
 {
   "name": "melo",
   "version": "0.1.0",
-  "homepage": "https://ricsign.github.io/melo",
+  "homepage": "https://darth-raazi.github.io/melo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
