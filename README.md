@@ -31,3 +31,4 @@ We learned how to do API calls with React’s fetch functions. We learned to ret
 - Improve UI
 - Personalized output based on user data (ie location)
 - Add additional features: filters, sharing
+
