@@ -9,11 +9,10 @@ function Home() {
     <div className="App">
       {!searchedSongs.length ? (
         <div>
-
-          <h1 className="mt-title"> Melo </h1>
+          <h1 className="mt-title"> Me♪o </h1>
 
           <Searchbar setSearchedSongs={setSearchedSongs} />
-          <br/>
+          <br />
           <a href="/docs">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +27,11 @@ function Home() {
             </svg>
           </a>
         </div>
-
-
-
       ) : (
         <div>
-          <h1 className="title">Melo</h1>
+          <a href="/">
+            <h1 className="title">Me♪o</h1>
+          </a>
           <Searchbar setSearchedSongs={setSearchedSongs} />
           <MusicCards searchedSongs={searchedSongs} />
         </div>

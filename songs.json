@@ -1,42 +1,32 @@
 {
     "songs": [{
             "name": "River Flows In You",
-            "photo": "https://d3tvwjfge35btc.cloudfront.net/Assets/63/825/L_p0057882563.jpg",
+            "photo": "https://www.guideposts.org/sites/default/files/styles/hero_box_left_lg/public/content_editors/marquee/piano_marquee_0.jpg?timestamp=1404411448",
             "description": "The sky is clear; the stars are twinkling.",
             "category": "Pop, Classical",
-            "letternotes": "abcaefefc",
+            "letternotes": "cbcbcgcfcecbcbcgcfefgedcbcgcdeefgfedcdcbccgccdcbccgccdcbcdefgedcbgd",
             "numbernotes": "1717151413171715143453217151233454321217115112171151121712345321752",
             "composer": "Yiruma",
             "link": "https://youtu.be/NPBCbTZWnq0"
         },
         {
-            "name": "As It Was",
-            "photo": "https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
-            "description": "Holdin' me back, Gravity's holdin' me back, I want you to hold out the palm of your hand",
-            "category": "Pop",
-            "letternotes": "abcaggbc",
-            "numbernotes": "514131717151434532143213247151233454321217115112171",
-            "composer": "Harry Styles",
-            "link": "https://youtu.be/ViRW06PCeEg"
-        },
-        {
-            "name": "University of Waterloo is way better than University of Toronto",
+            "name": "University of Waterloo",
             "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/800px-University_of_Waterloo_seal.svg.png",
-            "description": "I hear that Nancy is very pretty. In that instant, everything changed.", 
-            "category": "Pop",
+            "description": "I hear that Nancy is very pretty. In that instant, everything changed.",
+            "category": "Depression",
             "letternotes": "abcaggbcadeeeffe",
             "numbernotes": "514131717151434563247151233454321217115112171",
-            "composer": "Un",
+            "composer": "Vivek Goel",
             "link": "https://youtube.com"
         },
         {
             "name": "Linda don't touch the code",
             "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ProhibitionSign2.svg/1200px-ProhibitionSign2.svg.png",
-            "description": "something something something something something",
-            "category": "Coding",
+            "description": "loremp ieadsks ekann idsa n aeisj dfdk",
+            "category": "Alternatives",
             "letternotes": "aaddgecdbe",
             "numbernotes": "221466931038477103",
-            "composer": "Richard",
+            "composer": "Richard Shuai",
             "link": "https://youtube.com"
         },
         {
@@ -47,7 +37,7 @@
             "letternotes": "bcddecbabbcdbaaaebbcdbdecbcbabbcdbaeeefedefdeeefeabcdbefeabdbffeabdbeedcbabdbdecaaedabdbffeabdbacdcbabdbdecaaed",
             "numbernotes": "712231767712766637712723171767712763334323423334367127343672744367273321767272316632672744367276121767272316632",
             "composer": "Rick Astley",
-            "link": "https://youtube.com"
+            "link": "https://youtu.be/RmK_V1FHH-o"
         },
         {
             "name": "Here Comes The Sun",
@@ -57,7 +47,7 @@
             "letternotes": "fdeffedbdedbafdeffedbfedcfefdfdeffefdbfedfedabdeabdeabdedcba",
             "numbernotes": "423443272327642344327432143424234434274324326723672367232176",
             "composer": "The Beatles",
-            "link": "https://youtube.com"
+            "link": "https://youtu.be/pvStaSjnPAI"
         },
         {
             "name": "Bohemian Rhapsody",
@@ -67,8 +57,28 @@
             "letternotes": "fffffeefedcfffgfcffddddcbddddddddfbggggggffgfdcgabbbbaabbbbbaabggggfbaeeeeffaddabbddbcdddddfddccddfddcdddfagggbbbbbbgddcaggfggggggggffdbbffggggbggfgbfgdcbbbcbcbbaddbcddddfddccddfddcbddcbcdfagggfgbbbbbggddcaggfggggggffbbffgggggbggdccccccddccceeaeeaeeddefefffffffffffffgffgfgaabagffgfgaabagaabagfegfbbbbgdcbbbbabbbbabcbbabccbaabfccdbggfffbfbbbaabebbbbabbdbbdbbbbbbdddbdbbbbbbbbdddbdbbbbbbbbdddbbbbbdddbbbbbddcafddcfgbddbbbcbbbcbbbcbggfbdddbddddddggbgcfgbfggggggfffddddfaggggggfffddgbcaagfgaaaggffgceeeefeeeefedebggdgbbgfddbagdfgdbgffddcddbbaagd",
             "numbernotes": "44444334321444541442222172222222247555555445421567777667777766755554763333446226772271222224221122422122246555777777522165545555555544277445555755457452177717177622712222422112242217221712465554577777552216554555555447744555557552111111221113363363322343444444444444454454566765445456676566765435477775217777677776717767117667411275544474777667377776772772777777222727777777722272777777772227777722277777221642214572277717771777175547222722222255751457455555544422224655555544422571665456665544513333433334323755257754227652452754422122776652",
             "composer": "Queen",
+            "link": "https://youtu.be/p3K5DAWIDEc"
+        },
+        {
+            "name": "Perfect",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Ed_Sheeran_%26_Andrea_Bocelli_-_Perfect_Symphony.jpg/220px-Ed_Sheeran_%26_Andrea_Bocelli_-_Perfect_Symphony.jpg",
+            "description": "Get babes",
+            "category": "Pop",
+            "letternotes": "dfggcbgcbcccbggdgbcbfcbgcbgdcbggbgbccccbbggbcbgbcdddfcgccccfcbgccccbgccgdcccbcbgcccdcbgccccbgccgdbgbacdcbgbgggfgcddccbgggfgcbgbddddfcbgcdggfgcgbcdccccggccgbbcbbggg",
+            "numbernotes": "2455175171117552571741751752175575711117755717571222415111141751111751152111717511121751111751152757612175755545122117555451757222241751255451571211115511577177555",
+            "composer": "Ed Sheeran",
             "link": "https://youtube.com"
+        },
+        {
+            "name": "Beat It",
+            "photo": "https://i1.sndcdn.com/artworks-000667966150-qertvg-t500x500.jpg",
+            "description": "Just beat it",
+            "category": "Pop",
+            "letternotes": "bbbbbgbcbgbdbbbbbbdggfgfbbgfdcdddfdcccadfddfcbbbbbgbcbgbbbbbbbdggfgfbdbgfddddfdccbdfdbbcbgbbgbbffbbffbbbbbcbcbgfgfggfgfgfgfgfgfggfdbbdfcgfgfdbbdfcff",
+            "numbernotes": "7777757175727777772554547754212224211162422417777757175777777725545472754222242117242771757757744774477777171754545545454545454554277241545427724144",
+            "composer": "Michael Jackson",
+            "link": "https://youtu.be/oRdxUFDoQe0"
         }
-        
+
     ]
 }
