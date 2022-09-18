@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+## Contributors
+Linda, Ozayr, Richard, Rohan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+As music lovers, we often search music pieces online for a variety of purposes; however, one may not always remember the piece name despite being able to hum the tune or fundamental chord of a song. This inspired us to create Me♪o (pronounced “melo” in melody), a web app that acts as a search engine specifically for musical pieces. 
 
-## Available Scripts
+## What it does
+Melo is a music search engine designed to help musicians find the musical pieces that they are looking for. Songs can be searched in a traditional manner by name, artist, categories, etc.; however, a feature unique to Melo is that songs can be searched by a subset of notes that appear in them. In other words, users can enter notes in both staff and numbered musical notation to find songs in which the group of notes appear. 
 
-In the project directory, you can run:
+## How we built it
+We created our project with React and had two main pages (different routes). The first page (Home) contains the title and a search box which receives the data from the user and returns the musical pieces that have matching results. To get this info, we needed a database. Originally, we planned to use CockroachDB, but ended up using a JSON file as our backend since we were running out of time. The second page is a user guide to our webapp with a link to our GitHub repository, if the users choose to view the source code.
 
-### `npm start`
+## Challenges we ran into
+- Getting CockroachDB to work with React (this took a significant amount of our time)
+- Getting the backend to deploy (JSON file)
+- Miscommunication between teammates 
+- Waking up + working while sleep deprived
+- We had too much fun :D
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that we're proud of
+- Coded a full web app
+- Used a server for backend
+- We did ittt
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we learned
+We learned how to do API calls with React’s fetch functions. We learned to retrieve JSON data and convert it to readable and quantifiable results. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Me♪o 
+- Incorporate a SQL database
+- Convert sounds into notes and search database for similar songs/musical pieces
+- Improve UI
+- Personalized output based on user data (ie location)
+- Add additional features: filters, sharing
