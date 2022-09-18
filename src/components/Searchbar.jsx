@@ -14,14 +14,17 @@ function Searchbar({ setSearchedSongs }) {
     setSearchedSongs([]);
     for (let song of songs) {
       if (
-        song.letternotes.includes(userInput) ||
+        userInput &&
+        (song.letternotes.includes(userInput) ||
         song.numbernotes.includes(userInput) ||
-        song.name.toLowerCase().includes(userInput)
+        song.name.toLowerCase().includes(userInput) ||
+        song.category.toLowerCase().includes(userInput.toLowerCase()))
       ) {
         setSearchedSongs((songs) => {
+          // notExist = false;
           return [...songs, song];
         });
-        // notExist = false;
+        
       }
     }
 
