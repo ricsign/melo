@@ -23,7 +23,8 @@ function Searchbar({ setSearchedSongs }) {
         (song.letternotes.includes(userInput) ||
         song.numbernotes.includes(userInput) ||
         song.name.toLowerCase().includes(userInput) ||
-        song.category.toLowerCase().includes(userInput))
+        song.category.toLowerCase().includes(userInput) ||
+        song.composer.toLowerCase().includes(userInput))
       ) {
         setSearchedSongs((songs) => {
           return [...songs, song];
