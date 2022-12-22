@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/melo/">
+          <Route path="/">
             <Route index element={<Home />} />
             <Route path="docs" element={<Docs /> } />
 
